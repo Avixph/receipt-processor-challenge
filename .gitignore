@@ -1,0 +1,69 @@
+# ==================================================================================== #
+# GENERAL CONFIGURATIONS
+# ==================================================================================== #
+
+# IDE project files
+.idea
+.vscode
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.iml
+*.iml
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+out
+gen
+
+# .env and miscellaneous files
+.env
+Makefile.old
+
+# General OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==================================================================================== #
+# SERVER CONFIGURATIONS
+# ==================================================================================== #
+
+# Binaries for programs and plugins
+server/bin
+/server/bin/
+server/*/bin/*
+!server/*/bin/*.exe
+!server/*/bin/*.exe~
+!server/*/bin/*.dll
+!server/*/bin/*.so
+!server/*/bin/*.dylib
+server/tmp
+/server/tmp/
+server/*/tmp/*
+server/*.exe
+server/*.exe~
+server/*.dll
+server/*.so
+server/*.dylib
+
+# Test binary, built with `go test -c`
+server/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+server/*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+server/go.work
+server/go.work.sum
