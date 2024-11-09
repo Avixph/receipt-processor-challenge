@@ -17,7 +17,7 @@ Start by cloning the repository.
    ```bash
    make docker/run
    ```
-   The application will be available at http://localhost:8080
+   The application will be available at http://localhost:8080/v1/receipts
 2. Stop the application:
    ```bash
    make docker/stop
